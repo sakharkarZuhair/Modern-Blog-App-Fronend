@@ -1,5 +1,5 @@
 import React, { Children } from "react";
-import { Header } from "./";
+import { Header } from "..";
 
 const Layout = ({ children }) => {
   return (

@@ -1,7 +1,7 @@
 import "tailwindcss/tailwind.css";
 import "./styles/globals.scss";
 // import { useState } from "react";
-import { Layout } from "./components";
+import { Layout } from ".";
 
 export const metadata = {
   title: "Modern Blog NextJS",
