@@ -1,4 +1,7 @@
-import "./globals.css";
+import "tailwindcss/tailwind.css";
+import "./styles/globals.scss";
+// import { useState } from "react";
+import { Layout } from "./components";
 
 export const metadata = {
   title: "Modern Blog NextJS",
@@ -8,7 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Layout>{children}</Layout>
+      </body>
     </html>
   );
 }

@@ -1,8 +1,9 @@
-import Image from "next/image";
+// import Image from "next/image";
+// import "./styles/globals.scss";
 import { PostCard, Categories, PostWidget } from "./components";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 const posts = [
   { title: "React Testing", excerpt: "Learn React testing" },
